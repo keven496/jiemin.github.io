@@ -58,7 +58,7 @@ export default function Home() {
             <dl>
               <div>
                 <dt>Office</dt>
-                <dd>—</dd>
+                <dd>HIMIS 711</dd>
               </div>
               <div>
                 <dt>Email</dt>
