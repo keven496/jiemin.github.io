@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { SiteShell } from "../components/SiteShell";
 
 export const metadata: Metadata = {
@@ -38,16 +37,11 @@ export default function ServiceOutreachPage() {
               , online, May 7–9, 2021
             </li>
             <li>
-              <Link href="/seminars/symplectic-cohomology/">
-                Symplectic cohomology learning seminar
-              </Link>
-              , University of Minnesota, Fall 2020 and Spring 2021
+              Symplectic cohomology learning seminar, University of Minnesota,
+              Fall 2020 and Spring 2021
             </li>
             <li>
-              <Link href="/seminars/toric-fooo/">
-                Toric FOOO learning seminar
-              </Link>
-              , University of Minnesota, Spring 2020
+              Toric FOOO learning seminar, University of Minnesota, Spring 2020
             </li>
             <li>
               Student Symplectic Geometry Seminar, University of Minnesota,
@@ -75,36 +69,33 @@ export default function ServiceOutreachPage() {
 
         <section>
           <h2>Other service</h2>
-          <ul className="service-list">
+          <ul className="dense-list">
             <li>
-              <strong>Anti-racism committee</strong>
-              <span>University of Massachusetts Amherst, 2024</span>
+              <strong>Anti-racism committee</strong>, University of Massachusetts
+              Amherst, 2024
             </li>
             <li>
-              <strong>Counselor, Mathematics Project at Minnesota</strong>
-              <span>University of Minnesota, Jan 2021</span>
-              <p>Mentored undergraduate students reading papers and giving talks.</p>
+              <strong>Counselor, Mathematics Project at Minnesota</strong>,
+              University of Minnesota, Jan 2021. Mentored undergraduate students
+              reading papers and giving talks.
             </li>
             <li>
-              <strong>Instructor, CSE TALK program</strong>
-              <span>University of Minnesota, summers 2017–2019</span>
-              <p>
-                Helped new international graduate students teach in an American
-                classroom environment.
-              </p>
+              <strong>Instructor, CSE TALK program</strong>, University of
+              Minnesota, summers 2017–2019. Helped new international graduate
+              students teach in an American classroom environment.
             </li>
             <li>
-              <strong>Tutor, Enrichment program for young mathematics talents</strong>
-              <span>Chinese University of Hong Kong, summer 2012</span>
-              <p>
-                Taught complex numbers and hyperbolic geometry to mathematically
-                talented high school students.
-              </p>
+              <strong>
+                Tutor, Enrichment program for young mathematics talents
+              </strong>{", "}
+              Chinese University of Hong Kong, summer 2012. Taught complex numbers
+              and hyperbolic geometry to mathematically talented high school
+              students.
             </li>
             <li>
-              <strong>Vice President, 3Heart Club</strong>
-              <span>Chinese University of Hong Kong, 2009–2010</span>
-              <p>Organized volunteer teaching programs in rural areas in China.</p>
+              <strong>Vice President, 3Heart Club</strong>, Chinese University of
+              Hong Kong, 2009–2010. Organized volunteer teaching programs in
+              rural areas in China.
             </li>
           </ul>
         </section>

@@ -12,7 +12,6 @@ type Section =
 const navItems: Array<{ key: Section; href: string; label: string }> = [
   { key: "home", href: "/", label: "Home" },
   { key: "research", href: "/research/", label: "Research" },
-  { key: "seminars", href: "/seminars/", label: "Seminars" },
   { key: "service", href: "/service-outreach/", label: "Service & Outreach" },
   { key: "about", href: "/about/", label: "About Me" },
   { key: "posts", href: "/posts/", label: "Posts" },
@@ -46,18 +45,6 @@ export function SiteShell({
                   >
                     {item.label}
                   </Link>
-                  {item.key === "seminars" ? (
-                    <ul className="subnav">
-                      <li>
-                        <Link href="/seminars/toric-fooo/">Toric FOOO</Link>
-                      </li>
-                      <li>
-                        <Link href="/seminars/symplectic-cohomology/">
-                          Symplectic cohomology
-                        </Link>
-                      </li>
-                    </ul>
-                  ) : null}
                 </li>
               ))}
             </ul>
